@@ -1,3 +1,5 @@
+This repository demonstrates how audit‑ready compliance evidence can be validated and presented.
+
 # IAM Evidence Validator
 
 Audit-ready validator for Identity and Access Management (IAM) evidence.
