@@ -18,5 +18,7 @@ Designed for SOC 2, ISO 27001, and internal security reviews.
 Twitter: @shamircrackerlab  
 LinkedIn: linkedin.com/in/shamircrackerlab
 
+A sample audit report (`report.html`) is included to demonstrate final deliverables.
+
 ## Author
 Shamir Cracker Lab
