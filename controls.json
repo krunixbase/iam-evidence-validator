@@ -1,0 +1,10 @@
+{
+  "standard": "IAM / SOC 2 CC6",
+  "controls": [
+    { "id": "IAM-1", "name": "User access provisioning" },
+    { "id": "IAM-2", "name": "Role-based access control" },
+    { "id": "IAM-3", "name": "Periodic access reviews" },
+    { "id": "IAM-4", "name": "Privileged access management" },
+    { "id": "IAM-5", "name": "User deprovisioning" }
+  ]
+}
