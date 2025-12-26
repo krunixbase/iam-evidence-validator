@@ -1,1 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>IAM Evidence Validation Report</title>
+</head>
+<body>
 
+
+<h1>IAM Evidence Validation Report</h1>
+<p><b>Prepared by:</b> Shamir Cracker Lab (@shamircrackerlab)</p>
+<p><b>Report ID:</b> {{report_id}}</p>
+<p><b>Generated:</b> {{generated_at}}</p>
+
+<h2>Engagement Summary</h2>
+<ul>
+  <li><b>Client / System:</b> {{client_or_system}}</li>
+  <li><b>Standard:</b> {{standard}}</li>
+  <li><b>Scope:</b> {{evidence_scope}}</li>
+  <li><b>Evidence Path:</b> {{evidence_path}}</li>
+</ul>
+
+<h2>Key Metrics</h2>
+<ul>
+  <li><b>Files scanned:</b> {{files_scanned}}</li>
+  <li><b>Controls mapped:</b> {{controls_mapped}}</li>
+  <li><b>Total users:</b> {{users_total}}</li>
+  <li><b>Roles defined:</b> {{roles_total}}</li>
+  <li><b>Privileged accounts:</b> {{privileged_accounts}}</li>
+  <li><b>Access reviews found:</b> {{access_reviews_found}}</li>
+</ul>
+
+<h2>Findings Summary</h2>
+<ul>
+  <li><b>Total findings:</b> {{findings_total}}</li>
+  <li><b>Critical / High:</b> {{crit_high_count}}</li>
+  <li><b>Evidence gaps:</b> {{evidence_gaps_count}}</li>
+  <li><b>Retest required:</b> {{retest_required}}</li>
+</ul>
+
+<h2>IAM Observations</h2>
+
+<h3>Orphaned Accounts</h3>
+<p>Number of user accounts without assigned roles: <b>{{orphaned_accounts}}</b></p>
+
+<h3>Privileged Access Review</h3>
+<p>Privileged accounts identified: <b>{{privileged_accounts}}</b></p>
+<p>Access review evidence present: <b>{{access_reviews_found}}</b></p>
+
+<h2>Recommendations</h2>
+<ul>
+  <li>Implement periodic access reviews for all privileged accounts.</li>
+  <li>Ensure all user accounts are mapped to approved roles.</li>
+  <li>Maintain documented joiner / mover / leaver procedures.</li>
+</ul>
+
+<hr>
+<p>
+This report was generated automatically based on provided IAM evidence.
+Results should be reviewed by security and compliance stakeholders.
+</p>
+<p>© 2025 Shamir Cracker Lab</p>
+
+  </body>
+</html>
