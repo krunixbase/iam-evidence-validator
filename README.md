@@ -17,8 +17,12 @@ Designed for SOC 2, ISO 27001, and internal security reviews.
 - Privileged access controls
 
 ## Branding
-Twitter: @shamircrackerlab  
-LinkedIn: linkedin.com/in/shamircrackerlab
+📧 Email: shamircrackerlab@gmail.com  
+🔗 GitHub: [Gitkrunixdev](https://github.com/Gitkrunixdev)  
+🔗 GitHub: [krunixbase](https://github.com/krunixbase)  
+🔗 Twitter (X): [@shamircracker](https://x.com/shamircracker)  
+🔗 LinkedIn: [shamircrackerlab](https://www.linkedin.com/in/shamircrackerlab)
+
 
 A sample audit report (`report.html`) is included to demonstrate final deliverables.
 
